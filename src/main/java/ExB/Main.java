@@ -6,7 +6,7 @@ public class Main {
        int id = 0; //id of the car that needs service the most
        Car car1 = new Car(); //default constructor
        Car car2 = new Car(); //default constructor but with values from read()
-       Car car3 = new Car("Volvo","S70",1998,2000,350000,320000,360000); //constructor with parameters
+       Car car3 = new Car("Volvo","S70",1999,2000,350000,320000,360000); //constructor with parameters
        car2.read(); //reads values from the user
        car1.print(); //prints all values
        car2.print();
