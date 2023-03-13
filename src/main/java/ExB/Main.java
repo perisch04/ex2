@@ -3,7 +3,6 @@ public class Main {
     public static void main(String[] args) {
        final int MAX_CARS = 10; //max number of cars
        int km = 0; //km due
-        int test = 0;
        int id = 0; //id of the car that needs service the most
        Car car1 = new Car(); //default constructor
        Car car2 = new Car(); //default constructor but with values from read()
@@ -12,7 +11,7 @@ public class Main {
        car1.print(); //prints all values
        car2.print();
        car3.print();
-       Car[] Honda = new Car[MAX_CARS+test]; //array of cars
+       Car[] Honda = new Car[MAX_CARS]; //array of cars
        for(int i=0;i<MAX_CARS;i++){ //reads values from the user and sets them to the array
            Honda[i] = new Car();
            Honda[i].read();
