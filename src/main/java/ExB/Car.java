@@ -18,10 +18,7 @@ public class Car {
         return nextService;
     }
     public boolean needsService(){ //checks if the car needs service
-        if(km >= nextService){
-            return false;
-        }
-        return true;
+        return km < nextService;
     }
 
     public Car(){ //default constructor sets all values to 0 or "" and serviceStatus to false
